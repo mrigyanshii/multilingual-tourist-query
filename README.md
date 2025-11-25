@@ -41,60 +41,55 @@ Download it manually and place the JSONL files inside a folder called massive/.
 🛠️ *Features*
 
 ✔ Load & merge 51 JSONL files
+
 ✔ Text normalization & cleaning
+
 ✔ Generate 384-dimensional multilingual embeddings
+
 ✔ Build semantic clustering of tourist queries
+
 ✔ Notebook-based pipeline for reproducibility
+
 ✔ Ready for model export + API deployment
 
 📁 *Project Structure*
+📁 Project Structure
 multilingual-tourist-query-nlp/
 │
-├── notebook.ipynb                # Full pipeline: loading → cleaning → embeddings → clustering
-├── README.md                     # This file
-├── requirements.txt              # Project dependencies
-├── .gitignore                    # Prevents dataset + models from uploading
+├── notebook.ipynb
+├── README.md
+├── requirements.txt
+├── .gitignore
 │
-├── massive/                      # Place MASSIVE dataset here (ignored in Git)
-├── models/                       # Saved embeddings & cluster models
-└── src/                          # (Optional) backend API code
+├── massive/
+├── models/
+└── src/
+
 
 🔧 *Installation*
+
 1. Clone the repository
 git clone https://github.com/<your-username>/multilingual-tourist-query-nlp.git
+
 cd multilingual-tourist-query-nlp
 
 2. Install dependencies
+   
 pip install -r requirements.txt
 
 3. Download MASSIVE dataset
 
-Place all .jsonl files into:
-
-multilingual-tourist-query-nlp/massive/
-
-📓 *Running the Notebook*
-
-Open Jupyter:
-jupyter notebook
-
-Run the notebook cells in order:
-
-Load dataset
-Clean text
-Encode with Sentence Transformers
-Cluster with KMeans / HDBSCAN
-Visualize clusters
+Place all .jsonl files into: multilingual-tourist-query-nlp/massive/
 
 🧠 *Model Used*
 paraphrase-multilingual-MiniLM-L12-v2
 
 🚀 *Future Work*
 
-Build API using FastAPI
-Create a web interface for tourist query search
-Train supervised classifier on clustered intents
-Deploy model on HuggingFace Spaces
+1. Build API using FastAPI
+2. Create a web interface for tourist query search
+3. Train supervised classifier on clustered intents
+4. Deploy model on HuggingFace Spaces
 
 📜 *License*
 
@@ -102,6 +97,6 @@ This project is released under the MIT License.
 
 🙌 *Acknowledgements*
 
-MASSIVE dataset (Amazon Alexa AI)
-Sentence Transformers library
-HuggingFace Hub
+-> MASSIVE dataset (Amazon Alexa AI)
+-> Sentence Transformers library
+-> HuggingFace Hub
