@@ -1,6 +1,6 @@
 # multilingual-tourist-query
 🌍 Multilingual Tourist Query Understanding
-NLP + Embeddings + Clustering using the MASSIVE Dataset
+
 
 The Multilingual Tourist Query Understanding project builds a system capable of understanding and grouping tourist queries from 51 languages.
 It uses the MASSIVE dataset, multilingual text cleaning, transformer embeddings, and clustering to discover common tourist intents across languages.
@@ -10,7 +10,9 @@ It uses the MASSIVE dataset, multilingual text cleaning, transformer embeddings,
 Tourists ask similar questions across different languages:
 
 “Where is the nearest metro?”
+
 “¿Dónde está el museo más cercano?”
+
 “सबसे नज़दीकी होटल कहाँ है?”
 
 This project aims to:
