@@ -1,0 +1,23 @@
+# MASSIVE Dataset
+
+This project uses the **MASSIVE (Massive Multilingual Intent) dataset** provided by Amazon Science.
+
+Dataset source:
+https://www.amazon.science/code-and-datasets/massive
+
+## About the Dataset
+MASSIVE is a large-scale multilingual dataset for intent classification and slot filling.
+- Covers **52 languages**
+- Contains over **800,000+ utterances**
+- Designed for cross-lingual and multilingual NLP research
+
+## Usage in This Project
+The dataset is used for:
+- Multilingual intent discovery
+- Semantic embedding generation
+- Unsupervised clustering of user queries
+
+## Note
+The actual dataset files are **not included in this repository** due to size constraints.
+Please download the dataset directly from the official source link above and place the
+`.jsonl` files inside this `massive/` directory before running the notebook.
